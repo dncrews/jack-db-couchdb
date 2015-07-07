@@ -1,4 +1,7 @@
 # jack-db-couchdb
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][downloads-url]
+
 This Jack-Stack Plugin is used to add create `jack.db.couchdb`.
 
 ```js
@@ -51,3 +54,8 @@ couch({
 ```
 
 This uses the format: `host = http://{config.url}:{config.port}`
+
+[npm-image]: https://img.shields.io/npm/v/jack-db-couchdb.svg
+[npm-url]: https://www.npmjs.org/package/jack-db-couchdb
+[downloads-image]: https://img.shields.io/npm/dm/jack-db-couchdb.svg
+[downloads-url]: https://www.npmjs.org/package/jack-db-couchdb
