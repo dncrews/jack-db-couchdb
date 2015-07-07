@@ -1,17 +1,19 @@
 {
-  "name": "olympus-db-couchdb",
+  "name": "jack-db-couchdb",
   "version": "1.0.0",
-  "description": "Olympus Plugin for CouchDB",
+  "description": "Jack-Stack Plugin for CouchDB",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dan Crews <dan.crews@vivintsolar.com>",
+  "author": "Dan Crews <crewsd@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.30",
     "config": "^1.14.0",
-    "nano": "^6.1.4",
-    "olympus-plugin": "^1.0.0"
+    "nano": "^6.1.4"
+  },
+  "peerDependencies": {
+    "jack-stack": "^2.0.0"
   }
 }

@@ -1,10 +1,8 @@
-# olympus-db-couchdb
-This Olympus Plugin is used to add create `olympus.db.couchdb`.
+# jack-db-couchdb
+This Jack-Stack Plugin is used to add create `jack.db.couchdb`.
 
 ```js
-olympus.loadPlugins([
-  require('olympus-db-couchdb')()
-]);
+jack.plugins.add(require('jack-db-couchdb'));
 ```
 
 
@@ -12,13 +10,13 @@ olympus.loadPlugins([
 You can either pass in your configuration:
 
 ```js
-var olympus = require('olympus');
-var couch = require('olympus-db-couchdb');
+var jack = require('jack-stack');
+var couch = require('jack-db-couchdb');
 
-olympus.use(couch({
+jack.plugins.add(couch.configure({
   url: '1.1.1.1', // Some IP
   port: '1234' // Some PORT
-}));
+  }));
 ```
 
 Or you can use `node-config` and set the config variables in your config/ files:
