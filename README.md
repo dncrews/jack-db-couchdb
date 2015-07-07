@@ -16,7 +16,7 @@ var couch = require('jack-db-couchdb');
 jack.plugins.add(couch.configure({
   url: '1.1.1.1', // Some IP
   port: '1234' // Some PORT
-  }));
+}));
 ```
 
 Or you can use `node-config` and set the config variables in your config/ files:
@@ -38,7 +38,7 @@ You can either set the `host` parameter:
 ```js
 couch({
   host: 'https://full:path@to.domain:port'
-})
+});
 ```
 
 or you can use the `url` and `port` options:
