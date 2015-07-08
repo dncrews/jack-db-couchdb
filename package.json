@@ -8,6 +8,12 @@
   },
   "author": "Dan Crews <crewsd@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "jack-stack",
+    "plugin",
+    "database",
+    "couchdb"
+  ],
   "dependencies": {
     "bluebird": "^2.9.30",
     "config": "^1.14.0",
