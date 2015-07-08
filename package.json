@@ -1,6 +1,6 @@
 {
   "name": "jack-db-couchdb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jack-Stack Plugin for CouchDB",
   "main": "lib/index.js",
   "scripts": {
